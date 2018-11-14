@@ -123,6 +123,12 @@ html {
   font-size: 1.4rem;
   width: 30%;
 }
+@media (max-width: 500px) {
+  .container h2 {
+    font-size: 0.8rem;
+    width: 37%;
+  }
+}
 .container nav {
   font-size: 1rem;
   display: flex;
@@ -135,6 +141,7 @@ html {
 @media (max-width: 500px) {
   .container nav {
     font-size: 0.8rem;
+    width: 60%;
   }
 }
 .container nav a {

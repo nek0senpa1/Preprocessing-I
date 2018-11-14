@@ -1,1 +1,244 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Papyrus", Helvetica, Georgia, serif;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  html {
+    background-color: beige;
+    width: 95%;
+  }
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  border: 1px;
+  margin: 5px;
+  padding: 5px;
+  width: 1000px;
+  margin-bottom: 15px;
+}
+@media (max-width: 500px) {
+  .container {
+    width: 490px;
+  }
+}
+.container h2 {
+  border: 1px;
+  font-size: 1.4rem;
+  width: 30%;
+}
+.container nav {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  border: 1px;
+  width: 65%;
+}
+@media (max-width: 500px) {
+  .container nav {
+    font-size: 0.8rem;
+  }
+}
+.container nav a {
+  text-decoration: none;
+  color: Black;
+  font-size: 1.2rem;
+}
+@media (max-width: 500px) {
+  .container nav a {
+    font-size: 0.7rem;
+  }
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  border: 1px;
+  margin: 10px;
+  padding: 10px;
+  width: 980px;
+  margin-bottom: 15px;
+  background-color: #869e98;
+}
+@media (max-width: 500px) {
+  .container2 {
+    width: 490px;
+  }
+}
+.container2 img {
+  width: 25%;
+}
+.container2 h2 {
+  font-size: 2.3rem;
+}
+@media (max-width: 500px) {
+  .container2 h2 {
+    font-size: 1rem;
+  }
+}
+.container2 h3 {
+  font-size: 1.1rem;
+}
+.container2 p {
+  font-size: 0.8rem;
+}
+.container2 h4 {
+  font-size: 1.1rem;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: white;
+  width: 300px;
+}
+.container3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  border: 1px;
+  margin: 5px;
+  padding: 5px;
+  width: 1000px;
+  margin-bottom: 15px;
+}
+@media (max-width: 500px) {
+  .container3 {
+    width: 490px;
+  }
+}
+.container3 .container3a {
+  width: 46%;
+}
+.container3 .container3a h2 {
+  font-size: 2rem;
+}
+.container3 .container3a table {
+  border-collapse: collapse;
+}
+.container3 .container3a table th,
+.container3 .container3a table td {
+  border: 1px solid black;
+  height: 20px;
+  padding: 15px;
+  text-align: left;
+}
+.container4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  background-color: #869e98;
+  border: 1px;
+  margin: 5px;
+  padding: 5px;
+  width: 1000px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+@media (max-width: 500px) {
+  .container4 {
+    width: 490px;
+  }
+}
+.container4 h4 {
+  display: flex;
+  color: black;
+  font-size: 1rem;
+}

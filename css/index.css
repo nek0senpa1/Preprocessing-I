@@ -99,7 +99,7 @@ html {
 @media (max-width: 500px) {
   html {
     background-color: beige;
-    width: 95%;
+    width: 100%;
   }
 }
 .container {
@@ -116,6 +116,8 @@ html {
 @media (max-width: 500px) {
   .container {
     width: 490px;
+    margin: auto;
+    padding: 8%;
   }
 }
 .container h2 {
@@ -127,6 +129,7 @@ html {
   .container h2 {
     font-size: 0.8rem;
     width: 37%;
+    margin: auto;
   }
 }
 .container nav {
@@ -142,6 +145,7 @@ html {
   .container nav {
     font-size: 0.8rem;
     width: 60%;
+    margin: auto;
   }
 }
 .container nav a {
@@ -151,7 +155,7 @@ html {
 }
 @media (max-width: 500px) {
   .container nav a {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
 }
 .container2 {
@@ -168,6 +172,8 @@ html {
 @media (max-width: 500px) {
   .container2 {
     width: 490px;
+    margin: auto;
+    padding: 8%;
   }
 }
 .container2 img {
@@ -179,6 +185,7 @@ html {
 @media (max-width: 500px) {
   .container2 h2 {
     font-size: 1rem;
+    margin: auto;
   }
 }
 .container2 h3 {
@@ -208,6 +215,7 @@ html {
 @media (max-width: 500px) {
   .container3 {
     width: 490px;
+    padding: 8%;
   }
 }
 .container3 .container3a {
@@ -222,8 +230,6 @@ html {
 .container3 .container3a table th,
 .container3 .container3a table td {
   border: 1px solid black;
-  height: 20px;
-  padding: 15px;
   text-align: left;
 }
 .container4 {
@@ -242,6 +248,8 @@ html {
 @media (max-width: 500px) {
   .container4 {
     width: 490px;
+    margin: auto;
+    padding: 8%;
   }
 }
 .container4 h4 {
